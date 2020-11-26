@@ -1,0 +1,208 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div class = "container">
+  <header class ="header">
+    <h1 id = "title">The Office Survey</h1>
+    <p id = "description"> Who is your favorite Character from The Office</p>
+  </header>
+  
+  <form id = "survey-form">
+    <body>
+   <div class ="form-group">
+     <label id = "name-label" for = "name">Name</label>
+     <input type ="text" name = "name" id= "name" 
+            class ="form-control" placeholder="Enter your Name" required/>
+    </div>
+      
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control"
+               placeholder="Enter your Email" required/>
+      </div>
+      
+      <div class="form-group">
+        <label id="number-label" for="number">Age<span class="clue">(optional)</span>               </label>
+          <input type="number" name="age" id="number" min="13" max="120"  
+                 class="form-control" placeholder="Age"/>
+      </div>
+      
+      <div class="form-group">
+        <p>How often do you watch The Office?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select one</option>
+          <option value="everyday">Everyday</option>
+        <option value="often">Often</option>
+        <option value="casually">Casually</option>
+        <option value="never">Never</option>
+        </select>
+      </div>
+      
+       <div class="form-group">
+        <p>Would you recommend The Office to a friend?</p>
+         <label>
+           <input name="user-recommend" value="definitely" type="radio" class="input-radio"
+                  checked />Definetely </label>
+      <label>
+        <input name="user-recommend" value="maybe" type="radio" class="input-radio"/>
+        Maybe</label>  
+          
+      <label>
+        <input name="user-recommend" value="not-sure" type="radio" class="input-radio"
+               class="input-radio"/>Not sure</label>
+       </div>
+      
+      <div class="form-group">
+        <p>What was your favorite season of The Office?</p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+         </select>
+      </div>
+      
+      <div class="form-group">
+        <p>Who was your favorite character in The Office?<span class="clue">
+          (Check all that apply)</span></p>
+        <ul>
+          <li>
+        <label>
+         <input name="prefer" value="Michael Scott" type="checkbox" 
+                class="input-checkbox"/>Michael Scott</label></li>
+        <li>
+        <label>          
+         <input name="prefer" value="Dwight Schrute" type="checkbox" 
+                class="input-checkbox"/>Dwight Schrute</label></li>
+        <li>
+        <label>
+         <input name="prefer" value="Pam Beesly" type="checkbox" 
+                class="input-checkbox"/>Pam Beesly</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Jim Halpert" type="checkbox" 
+                class="input-checkbox"/>Jim Halpert</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Creed Bratton" type="checkbox" 
+                class="input-checkbox"/>Creed Bratton</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Jan Levinson" type="checkbox" 
+                class="input-checkbox"/>Jan Levinson</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Erin Hannon" type="checkbox" 
+                class="input-checkbox"/>Erin Hannon</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Kevin Malone" type="checkbox" 
+                class="input-checkbox"/>Kevin Malone</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Angela Martin" type="checkbox" 
+                class="input-checkbox"/>Angela Martin</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Andy Bernard" type="checkbox" 
+                class="input-checkbox"/>Andy Bernard</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Toby Flenderson" type="checkbox" 
+                class="input-checkbox"/>Toby Flenderson</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Stanley Hudson" type="checkbox" 
+                class="input-checkbox"/>Stanley Hudson</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Ryan Howard" type="checkbox" 
+                class="input-checkbox"/>Ryan Howard</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Nelly Bertram" type="checkbox" 
+                class="input-checkbox"/>Nelly Bertram</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Holly Flax" type="checkbox" 
+                class="input-checkbox"/>Holly Flax</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Meredith Palmer" type="checkbox" 
+                class="input-checkbox"/>Meredith Palmer</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Gabe Lewis" type="checkbox" 
+                class="input-checkbox"/>Gabe Lewis</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Robert California" type="checkbox" 
+                class="input-checkbox"/>Robert California </label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Darryl Philbin" type="checkbox" 
+                class="input-checkbox"/>Darryl Philbin</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Roy Anderson" type="checkbox" 
+                class="input-checkbox"/>Roy Anderson</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Phyllis Vance" type="checkbox" 
+                class="input-checkbox"/>Phyllis Vance</label></li>
+        <li>
+        <label>
+         <input name="prefer" value="Oscar Martinez" type="checkbox" 
+                class="input-checkbox"/>Oscar Martinez</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Mose" type="checkbox" 
+                class="input-checkbox"/>Mose</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Clark Green" type="checkbox" 
+                class="input-checkbox"/>Clark Green</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Pete Miller" type="checkbox" 
+                class="input-checkbox"/>Pete Miller</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="David Wallace" type="checkbox" 
+                class="input-checkbox"/>David Wallace</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Charles Miner" type="checkbox" 
+                class="input-checkbox"/>Charles Miner</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Jo Bennett" type="checkbox" 
+                class="input-checkbox"/>Jo Bennett</label></li>
+        <li>  
+        <label>
+         <input name="prefer" value="Todd Packer" type="checkbox" 
+               class="input-checkbox"/>Todd Packer</label></li>
+        <li>
+        <label>
+        <input name="prefer" value="Deangelo Vickers" type="checkbox" 
+               class="input-checkbox"/>Deangelo Vickers</label></li>
+        </ul>
+      </div>
+    
+    <div class="form-group">
+      <p>Any comments or anything else you'd like to share?</p>
+      <textarea id="comments" class="input-textarea" name="comment"
+                placeholder="Enter your comment here..."></textarea>
+    </div>
+    
+        <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+    </body>
+  </form>
