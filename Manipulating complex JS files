@@ -12,7 +12,7 @@ var myMusic = [
   },
   
   {
-    [
+    
   "artist": "Daft Punk",
   "title": "Homework",
   "release_year": 1997,
@@ -25,3 +25,4 @@ var myMusic = [
 
 }
 ];
+
